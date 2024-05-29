@@ -11,8 +11,8 @@ const Home: React.FC = () => {
         <link rel="icon" href="/logo.png" />
       </Head>
 
-      <div className="relative flex-grow pb-0 px-6">
-        <div className="bg-hero-section bg-no-repeat h-full bg-center bg-cover bg-black rounded-lg overflow-hidden">
+      <div className="relative flex-grow pb-0 px-6 bg-black">
+        <div className="bg-hero-section bg-no-repeat h-full bg-center bg-cover rounded-lg overflow-hidden">
           <video
             autoPlay
             loop
