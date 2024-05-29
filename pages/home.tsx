@@ -17,7 +17,7 @@ const Home: React.FC = () => {
             autoPlay
             loop
             muted
-            className="absolute opacity-90 top-0 left-0 w-full h-full object-cover"
+            className="absolute opacity-90 top-0 left-0 w-full h-full object-cover video-bg"
           >
             <source src="./keipromo2.webm" type="video/webm" />
           </video>
@@ -53,3 +53,5 @@ const Home: React.FC = () => {
 };
 
 export default Home;
+
+
