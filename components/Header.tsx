@@ -43,21 +43,21 @@ function Header() {
           </svg>
         </div>
         <div
-          className={`md:hidden absolute top-16 right-0 w-1/3 justify-center pl-9 bg-white shadow-lg ${
+          className={`md:hidden absolute top-14 right-2 text-center items-center w-auto bg-white shadow-lg flex flex-col ${
             isMenuOpen ? 'block' : 'hidden'
           }`}
         >
-          <h3 className="text-center w-2/3 hover:bg-red-500 hover:bg-opacity-90 hover:rounded-lg transition duration-300 transform hover:-translate-y-1 hover:scale-105">
-            <a href="/shop"><img src='./1b.png' className='-m-32' alt='Shop' /></a>
+          <h3 className="text-center w-full hover:bg-red-500 hover:bg-opacity-90 hover:rounded-lg transition duration-300 transform hover:-translate-y-1 hover:scale-105 mb-1">
+            <a href="/shop"><img src='./1b.png' className='w-28 -m-1' alt='Shop' /></a>
           </h3>
-          <h3 className="text-center w-2/3 hover:bg-red-500 hover:bg-opacity-90 hover:rounded-lg transition duration-300 transform hover:-translate-y-1 hover:scale-105">
-            <a href="/services"><img src='./4b.png' className='-m-32' alt='Services' /></a>
+          <h3 className="text-center w-full hover:bg-red-500 hover:bg-opacity-90 hover:rounded-lg transition duration-300 transform hover:-translate-y-1 hover:scale-105 mb-1">
+            <a href="/services"><img src='./4b.png' className='w-28 -m-1' alt='Services' /></a>
           </h3>
-          <h3 className="text-center w-2/3 hover:bg-red-500 hover:bg-opacity-90 hover:rounded-lg transition duration-300 transform hover:-translate-y-1 hover:scale-105">
-            <a href="/videos"><img src='./5b.png' className='-m-32' alt='Videos' /></a>
+          <h3 className="text-center w-full hover:bg-red-500 hover:bg-opacity-90 hover:rounded-lg transition duration-300 transform hover:-translate-y-1 hover:scale-105 mb-1">
+            <a href="/videos"><img src='./5b.png' className='w-28 -m-1' alt='Videos' /></a>
           </h3>
-          <h3 className="text-center w-2/3 hover:bg-red-500 hover:bg-opacity-90 hover:rounded-lg transition duration-300 transform hover:-translate-y-1 hover:scale-105">
-            <a href="/bookme"><img src='./6b.png' className='-m-32' alt='Book Me' /></a>
+          <h3 className="text-center w-full hover:bg-red-500 hover:bg-opacity-90 hover:rounded-lg transition duration-300 transform hover:-translate-y-1 hover:scale-105 mb-1">
+            <a href="/bookme"><img src='./6b.png' className='w-28 -m-1' alt='Book Me' /></a>
           </h3>
         </div>
       </div>
@@ -74,9 +74,3 @@ function Header() {
 }
 
 export default Header;
-
-
-
-
-
-
